@@ -10,8 +10,8 @@ import random
 
 ## PARAMETERS
 input_dir = "/home/cycy/Documents/datasets/PISC/images"
-output_dir = "/home/cycy/Documents/datasets/PISC/img_decomposition_dataset"
-n_images = 1000             # Number of images to use in the input directory
+output_dir = "/home/cycy/Documents/datasets/PISC/img_decomposition_dataset/less_big_dataset_cropped_128"
+n_images = 17000            # Number of images to use in the input directory
 image_size = 128            # Size of the cropped images,
                             # should be less than the minimum image size in the input directory    
 n_crop_by_image = 1         # Number of random crops by image
